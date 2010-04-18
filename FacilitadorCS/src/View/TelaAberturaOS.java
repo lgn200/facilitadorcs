@@ -72,43 +72,61 @@ public class TelaAberturaOS extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Abertura de Ordem de Serviço");
         setBounds(new java.awt.Rectangle(10, 10, 800, 600));
-        setExtendedState(1);
         setMinimumSize(new java.awt.Dimension(900, 700));
 
         cbAtendente.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cbAtendente.setAutoscrolls(true);
 
         lbAtendente.setText("Atendente:");
+        lbAtendente.setAutoscrolls(true);
 
         lbTecnico.setText("Técnico:");
+        lbTecnico.setAutoscrolls(true);
 
         cbTecnico.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cbTecnico.setAutoscrolls(true);
 
-        lbTituloAbreOS.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lbTituloAbreOS.setFont(new java.awt.Font("Tahoma", 1, 14));
         lbTituloAbreOS.setText("Controle de Ordem de Serviço");
+        lbTituloAbreOS.setAutoscrolls(true);
 
         lbCliente.setText("Cliente:");
+        lbCliente.setAutoscrolls(true);
 
         cbCliente.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cbCliente.setAutoscrolls(true);
 
         btBuscaClienteOS.setText("Busca");
+        btBuscaClienteOS.setAutoscrolls(true);
 
         btNovoClienteOS.setText("Novo");
+        btNovoClienteOS.setAutoscrolls(true);
+
+        spDescricaoOS.setAutoscrolls(true);
 
         taDescricaoOS.setColumns(20);
         taDescricaoOS.setRows(5);
         spDescricaoOS.setViewportView(taDescricaoOS);
 
         lbDataOS.setText("Data Abertura:");
+        lbDataOS.setAutoscrolls(true);
 
         lbHoraOS.setText("Hora de Abertura");
+        lbHoraOS.setAutoscrolls(true);
 
         lbDescricaoOS.setText("Descrição:");
+        lbDescricaoOS.setAutoscrolls(true);
 
         lbNumOS.setText("Nº O.S.");
+        lbNumOS.setAutoscrolls(true);
 
         lbDescontoOS.setText("Desconto:");
+        lbDescontoOS.setAutoscrolls(true);
 
         lbTotalOS.setText("Total a Pagar:");
+        lbTotalOS.setAutoscrolls(true);
+
+        spItemOS.setAutoscrolls(true);
 
         tbItemOS.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -142,6 +160,7 @@ public class TelaAberturaOS extends javax.swing.JFrame {
         tbAberturaOS.setFloatable(false);
         tbAberturaOS.setOrientation(1);
         tbAberturaOS.setRollover(true);
+        tbAberturaOS.setAutoscrolls(true);
         tbAberturaOS.setMaximumSize(new java.awt.Dimension(100, 60));
         tbAberturaOS.setMinimumSize(new java.awt.Dimension(100, 60));
         tbAberturaOS.setPreferredSize(new java.awt.Dimension(100, 60));
