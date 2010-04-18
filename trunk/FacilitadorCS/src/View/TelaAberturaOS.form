@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
     <Menu class="javax.swing.JMenuBar" name="mbAberturaOS">
       <SubComponents>
@@ -23,7 +23,6 @@
     <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
       <Rectangle value="[10, 10, 800, 600]"/>
     </Property>
-    <Property name="extendedState" type="int" value="1"/>
     <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
       <Dimension value="[900, 700]"/>
     </Property>
@@ -206,16 +205,19 @@
             <StringItem index="3" value="Item 4"/>
           </StringArray>
         </Property>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lbAtendente">
       <Properties>
         <Property name="text" type="java.lang.String" value="Atendente:"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lbTecnico">
       <Properties>
         <Property name="text" type="java.lang.String" value="T&#xe9;cnico:"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JComboBox" name="cbTecnico">
@@ -228,6 +230,7 @@
             <StringItem index="3" value="Item 4"/>
           </StringArray>
         </Property>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lbTituloAbreOS">
@@ -236,11 +239,13 @@
           <Font name="Tahoma" size="14" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Controle de Ordem de Servi&#xe7;o"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lbCliente">
       <Properties>
         <Property name="text" type="java.lang.String" value="Cliente:"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JComboBox" name="cbCliente">
@@ -253,19 +258,25 @@
             <StringItem index="3" value="Item 4"/>
           </StringArray>
         </Property>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btBuscaClienteOS">
       <Properties>
         <Property name="text" type="java.lang.String" value="Busca"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="btNovoClienteOS">
       <Properties>
         <Property name="text" type="java.lang.String" value="Novo"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Container class="javax.swing.JScrollPane" name="spDescricaoOS">
+      <Properties>
+        <Property name="autoscrolls" type="boolean" value="true"/>
+      </Properties>
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -283,6 +294,7 @@
     <Component class="javax.swing.JLabel" name="lbDataOS">
       <Properties>
         <Property name="text" type="java.lang.String" value="Data Abertura:"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txDataOS">
@@ -290,6 +302,7 @@
     <Component class="javax.swing.JLabel" name="lbHoraOS">
       <Properties>
         <Property name="text" type="java.lang.String" value="Hora de Abertura"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txHoraOS">
@@ -297,11 +310,13 @@
     <Component class="javax.swing.JLabel" name="lbDescricaoOS">
       <Properties>
         <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o:"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lbNumOS">
       <Properties>
         <Property name="text" type="java.lang.String" value="N&#xba; O.S."/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txNumOS">
@@ -309,6 +324,7 @@
     <Component class="javax.swing.JLabel" name="lbDescontoOS">
       <Properties>
         <Property name="text" type="java.lang.String" value="Desconto:"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txDescontoOS">
@@ -316,11 +332,15 @@
     <Component class="javax.swing.JLabel" name="lbTotalOS">
       <Properties>
         <Property name="text" type="java.lang.String" value="Total a Pagar:"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txTotalOS">
     </Component>
     <Container class="javax.swing.JScrollPane" name="spItemOS">
+      <Properties>
+        <Property name="autoscrolls" type="boolean" value="true"/>
+      </Properties>
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
       </AuxValues>
@@ -385,6 +405,7 @@
         <Property name="floatable" type="boolean" value="false"/>
         <Property name="orientation" type="int" value="1"/>
         <Property name="rollover" type="boolean" value="true"/>
+        <Property name="autoscrolls" type="boolean" value="true"/>
         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[100, 60]"/>
         </Property>
