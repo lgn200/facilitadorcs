@@ -60,38 +60,6 @@
                               <EmptySpace min="7" pref="7" max="7" attributes="0"/>
                               <Component id="btNovoClienteOS" linkSize="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                              <Group type="102" alignment="0" attributes="1">
-                                  <Component id="lbNumOS" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="txNumOS" min="-2" pref="69" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="lbDescricaoOS" min="-2" max="-2" attributes="0"/>
-                                      <Component id="spDescricaoOS" min="-2" pref="504" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="lbDataOS" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="lbHoraOS" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txDataOS" alignment="0" pref="123" max="32767" attributes="1"/>
-                                      <Component id="txHoraOS" alignment="0" max="32767" attributes="1"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="cbAtendente" alignment="0" min="-2" pref="226" max="-2" attributes="0"/>
-                                  <Component id="lbAtendente" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="lbTecnico" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="cbTecnico" alignment="0" min="-2" pref="226" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="460" pref="460" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
@@ -104,9 +72,55 @@
                                   <Component id="txTotalOS" alignment="0" min="-2" pref="97" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="spItemOS" min="-2" pref="664" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="1">
+                              <Component id="lbNumOS" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txNumOS" min="-2" pref="69" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lbDescricaoOS" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="spItemOS" alignment="0" min="-2" pref="664" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="1">
+                                      <Component id="spDescricaoOS" min="-2" pref="504" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jSeparator1" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="cbAtendente" alignment="0" min="-2" pref="226" max="-2" attributes="0"/>
+                                          <Component id="lbAtendente" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbTecnico" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="cbTecnico" alignment="0" min="-2" pref="226" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lbDataOS" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lbHoraOS" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="txHoraOS" min="-2" pref="123" max="-2" attributes="1"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="txDataOS" min="-2" pref="123" max="-2" attributes="1"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
                       </Group>
-                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <Component id="lbTituloAbreOS" min="-2" pref="215" max="-2" attributes="0"/>
@@ -116,7 +130,7 @@
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="pbStatusAbertOS" pref="792" max="32767" attributes="1"/>
+              <Component id="pbStatusAbertOS" pref="789" max="32767" attributes="1"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -161,18 +175,19 @@
                       <Component id="lbDescricaoOS" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="6" pref="6" max="6" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jSeparator1" max="32767" attributes="0"/>
+                          <Component id="spDescricaoOS" min="-2" pref="103" max="-2" attributes="0"/>
                           <Group type="102" attributes="0">
                               <Component id="lbDataOS" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="txDataOS" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="lbHoraOS" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
                               <Component id="txHoraOS" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="spDescricaoOS" min="-2" pref="103" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="spItemOS" min="-2" pref="94" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -578,6 +593,11 @@
     <Component class="javax.swing.JProgressBar" name="pbStatusAbertOS">
       <Properties>
         <Property name="autoscrolls" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+      <Properties>
+        <Property name="orientation" type="int" value="1"/>
       </Properties>
     </Component>
   </SubComponents>
