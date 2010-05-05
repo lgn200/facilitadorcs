@@ -331,7 +331,7 @@ public class TelaUsuario extends javax.swing.JFrame {
         getContentPane().add(txTelCelular);
         txTelCelular.setBounds(470, 280, 140, 20);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel2.setText("Usuário do Sistema");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(560, 20, 210, 17);
