@@ -83,7 +83,7 @@ public class TelaCadFonecedor extends javax.swing.JFrame {
         lbAtendente.setText("Empresa:");
         lbAtendente.setAutoscrolls(true);
 
-        lbTituloAbreOS.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        lbTituloAbreOS.setFont(new java.awt.Font("Arial", 1, 14));
         lbTituloAbreOS.setText("Cadastro de Fornecedor");
         lbTituloAbreOS.setAutoscrolls(true);
 
@@ -140,7 +140,7 @@ public class TelaCadFonecedor extends javax.swing.JFrame {
         btAbrirOS.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         tbAberturaOS.add(btAbrirOS);
 
-        btFecharOS.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
+        btFecharOS.setFont(new java.awt.Font("Tahoma", 1, 10));
         btFecharOS.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Imagem/Fechar.png"))); // NOI18N
         btFecharOS.setText("Excluir");
         btFecharOS.setFocusable(false);
@@ -217,7 +217,7 @@ public class TelaCadFonecedor extends javax.swing.JFrame {
         jLabel1.setText("Contato:");
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        jLabel2.setText("Emdereço:");
+        jLabel2.setText("Endereço:");
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel3.setText("Bairro:");
@@ -299,11 +299,11 @@ public class TelaCadFonecedor extends javax.swing.JFrame {
                                         .addComponent(jLabel5)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jTextField3, javax.swing.GroupLayout.DEFAULT_SIZE, 690, Short.MAX_VALUE)
+                                    .addComponent(jTextField3, javax.swing.GroupLayout.DEFAULT_SIZE, 693, Short.MAX_VALUE)
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(jTextField5, javax.swing.GroupLayout.DEFAULT_SIZE, 560, Short.MAX_VALUE)
-                                            .addComponent(jTextField4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 560, Short.MAX_VALUE))
+                                            .addComponent(jTextField5, javax.swing.GroupLayout.DEFAULT_SIZE, 563, Short.MAX_VALUE)
+                                            .addComponent(jTextField4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 563, Short.MAX_VALUE))
                                         .addGap(18, 18, 18)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addGroup(layout.createSequentialGroup()
@@ -316,8 +316,8 @@ public class TelaCadFonecedor extends javax.swing.JFrame {
                                                 .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))))
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(jTextField6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 377, Short.MAX_VALUE)
-                                            .addComponent(jTextField9, javax.swing.GroupLayout.DEFAULT_SIZE, 377, Short.MAX_VALUE))
+                                            .addComponent(jTextField6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
+                                            .addComponent(jTextField9, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE))
                                         .addGap(18, 18, 18)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
@@ -398,14 +398,11 @@ public class TelaCadFonecedor extends javax.swing.JFrame {
                                 .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(63, 63, 63)
                                 .addComponent(spItemOS, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel6)
-                                .addContainerGap())))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(pbStatusAbertOS, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 540, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap())))
+                            .addComponent(jLabel6)))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(pbStatusAbertOS, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 540, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(69, 69, 69))
         );
 
         pack();
