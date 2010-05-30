@@ -211,7 +211,7 @@ public class TelaCadUsuario extends javax.swing.JFrame {
         pbStatusAbert.setAutoscrolls(true);
 
         LBEnde.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        LBEnde.setText("Emdereço:");
+        LBEnde.setText("Endereço:");
 
         LBBairro.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         LBBairro.setText("Bairro:");
@@ -227,10 +227,10 @@ public class TelaCadUsuario extends javax.swing.JFrame {
 
         jSeparator1.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
-        LBCEP.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        LBCEP.setFont(new java.awt.Font("Arial", 0, 14));
         LBCEP.setText("CEP:");
 
-        LBUF.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        LBUF.setFont(new java.awt.Font("Arial", 0, 14));
         LBUF.setText("UF:");
 
         CBUF.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -295,11 +295,11 @@ public class TelaCadUsuario extends javax.swing.JFrame {
                                         .addComponent(lbNome)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(TFEnde, javax.swing.GroupLayout.DEFAULT_SIZE, 696, Short.MAX_VALUE)
+                                    .addComponent(TFEnde, javax.swing.GroupLayout.DEFAULT_SIZE, 699, Short.MAX_VALUE)
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(TFCidade, javax.swing.GroupLayout.DEFAULT_SIZE, 566, Short.MAX_VALUE)
-                                            .addComponent(TFBairro, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 566, Short.MAX_VALUE))
+                                            .addComponent(TFCidade, javax.swing.GroupLayout.DEFAULT_SIZE, 569, Short.MAX_VALUE)
+                                            .addComponent(TFBairro, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 569, Short.MAX_VALUE))
                                         .addGap(18, 18, 18)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addGroup(layout.createSequentialGroup()
@@ -312,7 +312,7 @@ public class TelaCadUsuario extends javax.swing.JFrame {
                                                 .addComponent(TFCEP, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))))
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(TFCPF, javax.swing.GroupLayout.DEFAULT_SIZE, 383, Short.MAX_VALUE)
+                                            .addComponent(TFCPF, javax.swing.GroupLayout.DEFAULT_SIZE, 386, Short.MAX_VALUE)
                                             .addGroup(layout.createSequentialGroup()
                                                 .addComponent(CBFunc, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -326,7 +326,7 @@ public class TelaCadUsuario extends javax.swing.JFrame {
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addComponent(TFFone)
                                             .addComponent(TFFoneComer, javax.swing.GroupLayout.DEFAULT_SIZE, 164, Short.MAX_VALUE)))
-                                    .addComponent(jTFNome, javax.swing.GroupLayout.DEFAULT_SIZE, 696, Short.MAX_VALUE))))))
+                                    .addComponent(jTFNome, javax.swing.GroupLayout.DEFAULT_SIZE, 699, Short.MAX_VALUE))))))
                 .addGap(44, 44, 44))
         );
         layout.setVerticalGroup(

@@ -151,89 +151,89 @@ public class TelaUsuario extends javax.swing.JFrame {
         getContentPane().add(tbPrincipal);
         tbPrincipal.setBounds(10, 11, 72, 350);
 
-        lbCodUsuario.setFont(new java.awt.Font("Arial", 0, 14));
+        lbCodUsuario.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbCodUsuario.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbCodUsuario.setText("Código:");
         getContentPane().add(lbCodUsuario);
         lbCodUsuario.setBounds(100, 60, 150, 20);
 
-        lbNome.setFont(new java.awt.Font("Arial", 0, 14));
+        lbNome.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbNome.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbNome.setText("Nome Completo:");
         getContentPane().add(lbNome);
         lbNome.setBounds(150, 90, 104, 17);
 
-        lbAcesso.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbAcesso.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbAcesso.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbAcesso.setText("Acesso:");
         getContentPane().add(lbAcesso);
-        lbAcesso.setBounds(160, 350, 47, 17);
+        lbAcesso.setBounds(160, 350, 50, 17);
 
-        lbEndereco.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbEndereco.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbEndereco.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbEndereco.setText("Endereço:");
         getContentPane().add(lbEndereco);
-        lbEndereco.setBounds(150, 160, 63, 17);
+        lbEndereco.setBounds(150, 160, 65, 17);
 
-        lbBairro.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbBairro.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbBairro.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbBairro.setText("Bairro:");
         getContentPane().add(lbBairro);
-        lbBairro.setBounds(420, 190, 40, 20);
+        lbBairro.setBounds(420, 190, 42, 20);
 
-        lbCidade.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbCidade.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbCidade.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbCidade.setText("Cidade:");
         getContentPane().add(lbCidade);
-        lbCidade.setBounds(270, 220, 46, 17);
+        lbCidade.setBounds(270, 220, 49, 17);
 
-        lbCPF.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbCPF.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         lbCPF.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbCPF.setText("CPF:");
         getContentPane().add(lbCPF);
         lbCPF.setBounds(470, 120, 40, 17);
 
-        lbFuncao.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbFuncao.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbFuncao.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbFuncao.setText("Função:");
         getContentPane().add(lbFuncao);
-        lbFuncao.setBounds(150, 250, 50, 17);
+        lbFuncao.setBounds(150, 250, 52, 17);
 
-        lbTelCelular.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbTelCelular.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbTelCelular.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbTelCelular.setText("Tel Celular:");
         getContentPane().add(lbTelCelular);
-        lbTelCelular.setBounds(400, 280, 66, 17);
+        lbTelCelular.setBounds(400, 280, 73, 17);
 
-        lbTelResidencia.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbTelResidencia.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbTelResidencia.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbTelResidencia.setText("Tel Residencial:");
         getContentPane().add(lbTelResidencia);
-        lbTelResidencia.setBounds(150, 280, 91, 17);
+        lbTelResidencia.setBounds(150, 280, 101, 17);
 
-        lbEmail.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbEmail.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbEmail.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbEmail.setText("E-mail:");
         getContentPane().add(lbEmail);
-        lbEmail.setBounds(150, 310, 41, 17);
+        lbEmail.setBounds(150, 310, 43, 17);
 
-        lbUsuario.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbUsuario.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbUsuario.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbUsuario.setText("Usuário:");
         getContentPane().add(lbUsuario);
-        lbUsuario.setBounds(160, 390, 50, 17);
+        lbUsuario.setBounds(150, 390, 60, 17);
 
-        lbSenha.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbSenha.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbSenha.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbSenha.setText("Senha:");
         getContentPane().add(lbSenha);
-        lbSenha.setBounds(510, 360, 43, 17);
+        lbSenha.setBounds(510, 360, 45, 17);
 
-        lbConfirmaSenha.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbConfirmaSenha.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbConfirmaSenha.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbConfirmaSenha.setText("Confirmar Senha:");
         getContentPane().add(lbConfirmaSenha);
-        lbConfirmaSenha.setBounds(450, 390, 107, 17);
+        lbConfirmaSenha.setBounds(450, 390, 111, 17);
         getContentPane().add(txCodUsuario);
         txCodUsuario.setBounds(210, 60, 60, 20);
         getContentPane().add(txNome);
@@ -277,14 +277,14 @@ public class TelaUsuario extends javax.swing.JFrame {
         getContentPane().add(rbAtivo);
         rbAtivo.setBounds(370, 350, 60, 23);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14));
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel1.setText("Nº");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(600, 160, 20, 17);
         getContentPane().add(txNum);
         txNum.setBounds(620, 160, 80, 20);
 
-        lbComplemento.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbComplemento.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbComplemento.setText("Complemento:");
         getContentPane().add(lbComplemento);
         lbComplemento.setBounds(150, 190, 91, 17);
@@ -297,15 +297,15 @@ public class TelaUsuario extends javax.swing.JFrame {
         getContentPane().add(txComplemento);
         txComplemento.setBounds(250, 190, 160, 20);
 
-        lbUF.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbUF.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbUF.setText("UF:");
         getContentPane().add(lbUF);
-        lbUF.setBounds(630, 220, 21, 17);
+        lbUF.setBounds(630, 220, 22, 17);
 
-        lbCEP.setFont(new java.awt.Font("Tahoma", 0, 14));
+        lbCEP.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbCEP.setText("CEP:");
         getContentPane().add(lbCEP);
-        lbCEP.setBounds(150, 220, 30, 17);
+        lbCEP.setBounds(150, 220, 32, 17);
 
         txCEP.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -381,7 +381,7 @@ public class TelaUsuario extends javax.swing.JFrame {
         getContentPane().add(jSeparator2);
         jSeparator2.setBounds(150, 340, 550, 10);
 
-        jLabel3.setFont(new java.awt.Font("Arial", 0, 14));
+        jLabel3.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jLabel3.setText("Data de Nascimento:");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(150, 120, 131, 17);

@@ -75,22 +75,22 @@ public class TelaAberturaOS extends javax.swing.JFrame {
         cbAtendente.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         cbAtendente.setAutoscrolls(true);
 
-        lbAtendente.setFont(new java.awt.Font("Arial", 0, 14));
+        lbAtendente.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbAtendente.setText("Atendente:");
         lbAtendente.setAutoscrolls(true);
 
-        lbTecnico.setFont(new java.awt.Font("Arial", 0, 14));
+        lbTecnico.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbTecnico.setText("Técnico:");
         lbTecnico.setAutoscrolls(true);
 
         cbTecnico.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         cbTecnico.setAutoscrolls(true);
 
-        lbTituloAbreOS.setFont(new java.awt.Font("Arial", 1, 14));
+        lbTituloAbreOS.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         lbTituloAbreOS.setText("Controle de Ordem de Serviço");
         lbTituloAbreOS.setAutoscrolls(true);
 
-        lbCliente.setFont(new java.awt.Font("Arial", 0, 14));
+        lbCliente.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbCliente.setText("Cliente:");
         lbCliente.setAutoscrolls(true);
 
@@ -109,27 +109,27 @@ public class TelaAberturaOS extends javax.swing.JFrame {
         taDescricaoOS.setRows(5);
         spDescricaoOS.setViewportView(taDescricaoOS);
 
-        lbDataOS.setFont(new java.awt.Font("Arial", 0, 14));
+        lbDataOS.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbDataOS.setText("Data Abertura:");
         lbDataOS.setAutoscrolls(true);
 
-        lbHoraOS.setFont(new java.awt.Font("Arial", 0, 14));
+        lbHoraOS.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbHoraOS.setText("Hora de Abertura");
         lbHoraOS.setAutoscrolls(true);
 
-        lbDescricaoOS.setFont(new java.awt.Font("Arial", 0, 14));
+        lbDescricaoOS.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbDescricaoOS.setText("Descrição:");
         lbDescricaoOS.setAutoscrolls(true);
 
-        lbNumOS.setFont(new java.awt.Font("Arial", 0, 14));
+        lbNumOS.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbNumOS.setText("Nº O.S.");
         lbNumOS.setAutoscrolls(true);
 
-        lbDescontoOS.setFont(new java.awt.Font("Arial", 0, 14));
+        lbDescontoOS.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbDescontoOS.setText("Desconto:");
         lbDescontoOS.setAutoscrolls(true);
 
-        lbTotalOS.setFont(new java.awt.Font("Arial", 0, 14));
+        lbTotalOS.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbTotalOS.setText("Total a Pagar:");
         lbTotalOS.setAutoscrolls(true);
 
@@ -182,7 +182,7 @@ public class TelaAberturaOS extends javax.swing.JFrame {
         btAbrirOS.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         tbAberturaOS.add(btAbrirOS);
 
-        btFecharOS.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
+        btFecharOS.setFont(new java.awt.Font("Tahoma", 1, 10));
         btFecharOS.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Imagem/Fechar.png"))); // NOI18N
         btFecharOS.setText("Fechar OS");
         btFecharOS.setFocusable(false);
@@ -386,7 +386,7 @@ public class TelaAberturaOS extends javax.swing.JFrame {
                         .addComponent(tbAberturaOS, javax.swing.GroupLayout.DEFAULT_SIZE, 572, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
                 .addComponent(pbStatusAbertOS, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(41, 41, 41))
+                .addContainerGap())
         );
 
         pack();
