@@ -42,10 +42,10 @@ public class TelaAberturaOS extends javax.swing.JFrame {
         btNovoClienteOS = new javax.swing.JButton();
         spDescricaoOS = new javax.swing.JScrollPane();
         taDescricaoOS = new javax.swing.JTextArea();
-        lbDataOS = new javax.swing.JLabel();
+        lbDataAbertOS = new javax.swing.JLabel();
         txDataOS = new javax.swing.JTextField();
-        lbHoraOS = new javax.swing.JLabel();
-        txHoraOS = new javax.swing.JTextField();
+        lbHoraAbertOS = new javax.swing.JLabel();
+        txHoraAbertOS = new javax.swing.JTextField();
         lbDescricaoOS = new javax.swing.JLabel();
         lbNumOS = new javax.swing.JLabel();
         txNumOS = new javax.swing.JTextField();
@@ -128,20 +128,26 @@ public class TelaAberturaOS extends javax.swing.JFrame {
         taDescricaoOS.setRows(5);
         spDescricaoOS.setViewportView(taDescricaoOS);
 
+<<<<<<< .mine
+        lbDataAbertOS.setFont(new java.awt.Font("Arial", 0, 14));
+        lbDataAbertOS.setText("Data Abertura:");
+        lbDataAbertOS.setAutoscrolls(true);
+=======
         getContentPane().add(spDescricaoOS);
         spDescricaoOS.setBounds(90, 244, 504, 103);
 
         lbDataOS.setFont(new java.awt.Font("Arial", 0, 14));
         lbDataOS.setText("Data Abertura:");
         lbDataOS.setAutoscrolls(true);
+>>>>>>> .r14
         getContentPane().add(lbDataOS);
         lbDataOS.setBounds(616, 244, 93, 17);
         getContentPane().add(txDataOS);
         txDataOS.setBounds(616, 267, 123, 20);
 
-        lbHoraOS.setFont(new java.awt.Font("Arial", 0, 14));
-        lbHoraOS.setText("Hora de Abertura");
-        lbHoraOS.setAutoscrolls(true);
+        lbHoraAbertOS.setFont(new java.awt.Font("Arial", 0, 14));
+        lbHoraAbertOS.setText("Hora de Abertura");
+        lbHoraAbertOS.setAutoscrolls(true);
         getContentPane().add(lbHoraOS);
         lbHoraOS.setBounds(616, 293, 109, 17);
         getContentPane().add(txHoraOS);
@@ -311,6 +317,141 @@ public class TelaAberturaOS extends javax.swing.JFrame {
         getContentPane().add(jSeparator1);
         jSeparator1.setBounds(597, 244, 1, 115);
 
+<<<<<<< .mine
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(tbAberturaOS, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lbCliente)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(cbCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 353, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(17, 17, 17)
+                        .addComponent(btBuscaClienteOS)
+                        .addGap(7, 7, 7)
+                        .addComponent(btNovoClienteOS))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(460, 460, 460)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txDescontoOS, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lbDescontoOS))
+                        .addGap(13, 13, 13)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lbTotalOS)
+                            .addComponent(txTotalOS, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(lbNumOS)
+                        .addGap(18, 18, 18)
+                        .addComponent(txNumOS, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(lbDescricaoOS)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addComponent(spDescricaoOS, javax.swing.GroupLayout.PREFERRED_SIZE, 504, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jSeparator1))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(cbAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lbAtendente))
+                                .addGap(64, 64, 64)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lbTecnico)
+                                    .addComponent(cbTecnico, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lbDataAbertOS))
+                            .addGroup(layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lbHoraAbertOS))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(layout.createSequentialGroup()
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(txHoraAbertOS, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(txDataOS, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(lbTituloAbreOS, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(spItemOS, javax.swing.GroupLayout.PREFERRED_SIZE, 664, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addComponent(pbStatusAbertOS, javax.swing.GroupLayout.DEFAULT_SIZE, 735, Short.MAX_VALUE)
+                .addGap(24, 24, 24))
+        );
+
+        layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {btBuscaClienteOS, btNovoClienteOS});
+
+        layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {lbDescontoOS, lbTotalOS});
+
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(49, 49, 49)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(txNumOS, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(lbNumOS))
+                                .addGap(26, 26, 26)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(lbAtendente)
+                                    .addComponent(lbTecnico)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(lbTituloAbreOS, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(6, 6, 6)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(cbAtendente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(cbTecnico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(10, 10, 10)
+                        .addComponent(lbCliente)
+                        .addGap(16, 16, 16)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(cbCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btBuscaClienteOS)
+                            .addComponent(btNovoClienteOS))
+                        .addGap(17, 17, 17)
+                        .addComponent(lbDescricaoOS)
+                        .addGap(6, 6, 6)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jSeparator1, javax.swing.GroupLayout.DEFAULT_SIZE, 115, Short.MAX_VALUE)
+                            .addComponent(spDescricaoOS, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(lbDataAbertOS)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(txDataOS, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(lbHoraAbertOS)
+                                .addGap(11, 11, 11)
+                                .addComponent(txHoraAbertOS, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(spItemOS, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lbDescontoOS)
+                            .addComponent(lbTotalOS))
+                        .addGap(16, 16, 16)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txDescontoOS, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txTotalOS, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(53, 53, 53))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(tbAberturaOS, javax.swing.GroupLayout.DEFAULT_SIZE, 574, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
+                .addComponent(pbStatusAbertOS, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(41, 41, 41))
+        );
+
+=======
+>>>>>>> .r14
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -342,10 +483,10 @@ public class TelaAberturaOS extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JLabel lbAtendente;
     private javax.swing.JLabel lbCliente;
-    private javax.swing.JLabel lbDataOS;
+    private javax.swing.JLabel lbDataAbertOS;
     private javax.swing.JLabel lbDescontoOS;
     private javax.swing.JLabel lbDescricaoOS;
-    private javax.swing.JLabel lbHoraOS;
+    private javax.swing.JLabel lbHoraAbertOS;
     private javax.swing.JLabel lbNumOS;
     private javax.swing.JLabel lbTecnico;
     private javax.swing.JLabel lbTituloAbreOS;
@@ -358,7 +499,7 @@ public class TelaAberturaOS extends javax.swing.JFrame {
     private javax.swing.JTable tbItemOS;
     private javax.swing.JTextField txDataOS;
     private javax.swing.JTextField txDescontoOS;
-    private javax.swing.JTextField txHoraOS;
+    private javax.swing.JTextField txHoraAbertOS;
     private javax.swing.JTextField txNumOS;
     private javax.swing.JTextField txTotalOS;
     // End of variables declaration//GEN-END:variables
