@@ -34,6 +34,7 @@ public class TelaUsuario extends javax.swing.JFrame {
         tbPrincipal = new javax.swing.JToolBar();
         btNovo = new javax.swing.JButton();
         btBusca = new javax.swing.JButton();
+        btLimparOS = new javax.swing.JButton();
         btSalvar = new javax.swing.JButton();
         btCancelar = new javax.swing.JButton();
         btFechar = new javax.swing.JButton();
@@ -115,6 +116,16 @@ public class TelaUsuario extends javax.swing.JFrame {
         btBusca.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         tbPrincipal.add(btBusca);
 
+        btLimparOS.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Imagem/limpar.png"))); // NOI18N
+        btLimparOS.setText("Limpar");
+        btLimparOS.setFocusable(false);
+        btLimparOS.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btLimparOS.setMaximumSize(new java.awt.Dimension(70, 70));
+        btLimparOS.setMinimumSize(new java.awt.Dimension(70, 70));
+        btLimparOS.setPreferredSize(new java.awt.Dimension(70, 70));
+        btLimparOS.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        tbPrincipal.add(btLimparOS);
+
         btSalvar.setFont(new java.awt.Font("Tahoma", 1, 12));
         btSalvar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Imagem/Salvar.png"))); // NOI18N
         btSalvar.setText("Salvar");
@@ -149,7 +160,7 @@ public class TelaUsuario extends javax.swing.JFrame {
         tbPrincipal.add(btFechar);
 
         getContentPane().add(tbPrincipal);
-        tbPrincipal.setBounds(10, 11, 72, 350);
+        tbPrincipal.setBounds(10, 11, 72, 420);
 
         lbCodUsuario.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         lbCodUsuario.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -331,7 +342,7 @@ public class TelaUsuario extends javax.swing.JFrame {
         getContentPane().add(txTelCelular);
         txTelCelular.setBounds(470, 280, 140, 20);
 
-        jLabel2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial", 1, 14));
         jLabel2.setText("Usuário do Sistema");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(560, 20, 210, 17);
@@ -450,6 +461,7 @@ public class TelaUsuario extends javax.swing.JFrame {
     private javax.swing.JButton btBusca;
     private javax.swing.JButton btCancelar;
     private javax.swing.JButton btFechar;
+    private javax.swing.JButton btLimparOS;
     private javax.swing.JButton btNovo;
     private javax.swing.JButton btSalvar;
     private javax.swing.JComboBox cbAcesso;
