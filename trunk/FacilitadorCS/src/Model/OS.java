@@ -4,7 +4,7 @@ public class OS {
 
     private String descricao, atendente, tecnico, dataAb, dataFc, horaAb, horaFc;
     private Long nOS;
-    private Float totalPagar;
+    private Float totalPagar, desconto;
     private Pessoa cliente;
     private Usuario usuario;
     private ItemOS item;
@@ -12,7 +12,7 @@ public class OS {
     public OS() {
     }
 
-    public OS(String descricao, String atendente, String tecnico, String dataAb, String dataFc, String horaAb, String horaFc, Long nOS, Float totalPagar, Pessoa cliente, Usuario usuario, ItemOS item) {
+    public OS(String descricao, String atendente, String tecnico, String dataAb, String dataFc, String horaAb, String horaFc, Long nOS, Float totalPagar, Float desconto, Pessoa cliente, Usuario usuario, ItemOS item) {
         this.descricao = descricao;
         this.atendente = atendente;
         this.tecnico = tecnico;
@@ -20,6 +20,7 @@ public class OS {
         this.dataFc = dataFc;
         this.nOS = nOS;
         this.totalPagar = totalPagar;
+        this.desconto = desconto;
         this.cliente = cliente;
         this.usuario = usuario;
         this.horaAb = horaAb;
@@ -85,6 +86,14 @@ public class OS {
 
     public Float getTotalPagar() {
         return totalPagar;
+    }
+
+    public Float getDesconto() {
+        return desconto;
+    }
+
+    public void setDesconto(Float desconto) {
+        this.desconto = desconto;
     }
 
     public void setTotalPagar(Float totalPagar) {
